@@ -1,0 +1,18 @@
+In this project there are:
+- the folder 'data'. It contains a Python script that generates the other two csv files of the folder and which contain all the data used for the model;
+- the folder 'result'. It contains two Python Notebook: one is called 'deterministic_model' and is a naive model, while the other called 'stocastic_model' has the final result of our analysis;
+- 'main_stability.py'. It is a Python script with functions to compute the In-Sample and Out_of_Sample Stability of the model and then stability analysis is performed;
+- 'model.py'. It is a Python script with functions to generate and optimize the model. It is sufficient to call its functions without any inputs to create a model for the data stored in the 'data' folder (e.g. model = guropi_model())
+
+ATTENTION: in all the scripts and notebook the data considered is stored in two csv files as follows:
+- components_data.csv: 
+table with (n_components + 1) rows and (n_machines + n_products + 2) columns.
+    The first column has the name of the components
+    The next n_machines columns are the time in minutes that each component takes in each machine.
+    The next n_products columns are the gozinto factors for each component.
+    The last column is the fixed cost of each component.
+- products_machines.csv:
+table with (n_items + n_machines + 1) rows
+    The first rows contains (n_items, n_machines)
+    The next n_items rows contain (product, selling price)
+    The next n_machines rows contain (machine, daily time availability)
