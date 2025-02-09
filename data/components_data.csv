@@ -1,0 +1,34 @@
+,Wave Soldering Machine,Assembly Robot,Pick-and-Place Machine,Test Bench,Presses and Case Molding Machine,Laser or Plasma Cutting Machine,Burn-in Machine (Stress Testing),Packaging Machine,Computer_A,Computer_B,price
+Central Processing Unit (CPU),0,6.0,2,3,0,0,6,0.02,1,1,150
+Graphics Processing Unit (GPU) Intel,0,7.0,2,3,0,0,6,0.02,0,1,240
+Graphics Processing Unit (GPU) NVIDIA,0,10.0,3,3,0,0,6,0.02,1,0,320
+Motherboard,20,3.0,8,3,0,0,6,0.02,1,1,30
+Random Access Memory (RAM) 16GB,0,2.0,2,3,0,0,6,0.02,0,1,30
+Random Access Memory (RAM) 32GB,0,2.0,2,3,0,0,6,0.02,1,0,50
+Storage Drive SSD 1TB,0,5.0,6,3,0,0,6,0.02,1,0,60
+Storage Drive SSD 512GB,0,3.0,2,3,0,0,6,0.02,0,1,40
+Storage Drive Hard Disk Drive,0,1.0,1,3,0,0,6,0.02,0,1,25
+Battery,0,2.0,2,3,0,0,6,0.02,1,1,20
+Cooling System (Intake Fans),0,2.0,2,3,0,0,6,0.02,1,0,20
+Cooling System (Exhaust Fans),0,1.0,1,3,0,0,6,0.02,0,1,18
+Cooling System (Heat Sinks),0,1.0,2,3,0,0,6,0.02,1,1,15
+Wi-Fi Card,0,1.0,2,3,0,0,6,0.02,1,1,10
+Bluetooth Card,0,1.0,2,3,0,0,6,0.02,1,1,10
+Sound Card,0,2.0,2,3,0,0,6,0.02,1,1,15
+Screen,0,5.0,2,3,0,30,6,0.02,1,1,70
+Keyboard,0,2.0,2,3,0,15,6,0.02,0,1,20
+Backlit Keyboard,0,3.0,4,3,0,20,6,0.02,1,0,30
+Touchpad,0,1.0,2,3,0,0,6,0.02,1,1,20
+Webcam,0,1.0,2,3,0,0,6,0.02,1,1,10
+Microphone,0,1.0,2,3,0,0,6,0.02,1,1,10
+Fingerprint Reader,0,1.0,2,3,0,0,6,0.02,1,0,20
+USB-B Port,5,0.5,2,3,0,0,6,0.02,1,1,3
+USB-C Port,5,0.5,2,3,0,0,6,0.02,1,0,3
+HDMI,5,0.5,2,3,0,0,6,0.02,1,1,2
+Audio Jack,2,0.3,1,3,0,0,6,0.02,1,1,2
+Ethernet Port,5,0.5,1,3,0,0,6,0.02,0,1,2
+SD Card Reader,5,0.5,1,3,0,0,6,0.02,0,1,2
+Laptop Chassis,0,0.1,1,3,10,20,6,0.02,1,1,30
+Hinges,0,1.0,2,3,10,5,6,0.02,1,1,10
+Speakers,10,2.0,2,3,0,0,6,0.02,1,1,10
+Charging Port,5,1.0,15,3,0,0,6,0.02,1,1,5
